@@ -1,6 +1,7 @@
 body {
   background: gray;
   font-family: sans-serif;
+  font-size: 16px;
 }
 
 .card {
@@ -13,8 +14,26 @@ body {
 .content,
 .button-container {
   background: dodgerblue;
+  font-size: inherit;
+  margin-bottom: 8px;
+}
+
+.title {
+  padding: 8px;
+}
+
+.content {
+  padding: 16px 8px;
+}
+
+.button-container {
+  padding: 8px;
+  text-align: center;
 }
 
 button {
   background: white;
+  padding: 8px 16px;
+  display: block;
+  margin: 0 auto;
 }
